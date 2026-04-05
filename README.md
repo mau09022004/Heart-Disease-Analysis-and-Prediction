@@ -29,4 +29,33 @@ This is a multivariate dataset consisting of both numerical and categorical vari
 - **thal**: Thalassemia condition (normal, fixed defect, reversible defect)  
 - **target (num)**: Presence of heart disease (prediction label)  
 
-
+## Project Structure
+```
+Heart-Disease-Analysis-and-Prediction/
+├─ data/
+│   ├─ processed/       # Processed data (Running code -> folder will be created)
+│   └─ raw/             # Original data
+├─ src/
+│   └─ process/
+│       ├─ data/
+│       │   ├─ eda.ipynb           # Data visualization through Python
+│       │   └─ splitdata.ipynb     # Divided dataset into 2 parts: train, test dataset
+│       │
+│       ├─ data_crawling/
+│       │   └─ crawler.ipynb # Crawling data by Python
+│       │
+│       ├─ preprocessing/
+│       │   ├─ normalization.ipynb        # Normalize dataset into suitable format
+│       │   └─ preprocessing.ipynb        # Preprocessing dataset
+│       │
+│       └─ questions/
+│           ├─ question1.ipynb
+│           ├─ question2.ipynb
+│           ├─ question3.ipynb
+│           ├─ question4.ipynb
+│           └─ question5.ipynb
+│
+├─ .gitignore
+├─ requirements.txt
+└─ README.md
+```
