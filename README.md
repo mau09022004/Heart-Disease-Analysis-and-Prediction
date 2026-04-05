@@ -32,30 +32,22 @@ This is a multivariate dataset consisting of both numerical and categorical vari
 ## Project Structure
 ```
 Heart-Disease-Analysis-and-Prediction/
-├─ data/
-│   ├─ processed/       # Processed data (Running code -> folder will be created)
-│   └─ raw/             # Original data
-├─ src/
-│   └─ process/
-│       ├─ data/
-│       │   ├─ eda.ipynb           # Data visualization through Python
-│       │   └─ splitdata.ipynb     # Divided dataset into 2 parts: train, test dataset
-│       │
-│       ├─ data_crawling/
-│       │   └─ crawler.ipynb # Crawling data by Python
-│       │
-│       ├─ preprocessing/
-│       │   ├─ normalization.ipynb        # Normalize dataset into suitable format
-│       │   └─ preprocessing.ipynb        # Preprocessing dataset
-│       │
-│       └─ questions/
-│           ├─ question1.ipynb
-│           ├─ question2.ipynb
-│           ├─ question3.ipynb
-│           ├─ question4.ipynb
-│           └─ question5.ipynb
 │
-├─ .gitignore
-├─ requirements.txt
-└─ README.md
+├── data/
+│   ├── original/ 
+│   │   └── heart_disease_uci.csv      # Original data from Kaggle
+│   │
+│   ├── prediction/
+│   │   └── heart_disease_uci_with_target.csv      # Final prediction data
+│   │
+│   └── preprocessed/
+│       └── heart_disease_uci_preprocessed.csv      # Preprocessing data
+│
+├── src/
+│   ├── DA_05_GD1_Preprocessing.ipynb 
+│   ├── DA_05_GD2_EDA.ipynb
+│   ├── DA_05_GD3_Hypothesis_Testing.ipynb
+│   └── DA_05_GD4_Model_Evaluation+Bonus.ipynb
+│
+└── README.md
 ```
