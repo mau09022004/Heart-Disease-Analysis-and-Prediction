@@ -54,34 +54,31 @@ Heart-Disease-Analysis-and-Prediction/
 ```
 
 ## Technologies Used
-### 🐍 Programming & Environment
-- Python
-- Jupyter Notebook / Google Colab
-
-### 📊 Data Processing & Analysis
-- pandas
-- numpy
-
-### 📈 Data Visualization
-- matplotlib
-- seaborn
-
-### 📐 Statistical Analysis
-- scipy
-- statsmodels
-
-### 🤖 Machine Learning
-- scikit-learn
-  - Classification: Logistic Regression, KNN, Decision Tree, Random Forest, SVM
-  - Clustering: K-Means
-  - Model Selection: GridSearchCV, RandomizedSearchCV, Cross-validation
-  - Feature Selection: RFE, RFECV
-  - Evaluation Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC
-
-### ⚖️ Imbalanced Data Handling
-- imbalanced-learn (SMOTE)
-
-### 🧪 Additional Tools
-- openpyxl (Excel handling)
-- tqdm (progress bar)
-- warnings (ignore runtime warnings)
+Programming & Environment: Python, Jupyter Notebook / Google Colab
+- Data Processing & Analysis: Pandas, Numpy
+- Data Visualization: Matplotlib, Seaborn
+- Statistical Analysis: Scipy, Statsmodels
+- Machine Learning: Scikit-learn (Classification, Clustering, Model Selection, Feature Selection, Evaluation Metrics)
+- Imbalanced Data Handling: imbalanced-learn (SMOTE)
+- Others: Openpyxl, tqdm, warnings
+## Pipeline
+There are 8 steps: 
+ 1. Data collection: Download Heart Disease UCI dataset from Kaggle.
+ 2. Data preprocessing: Preprocessing data by cleaning data, formatting data.
+ 3. Exploratory Data Analysis (EDA): Visualizing relationships by using suitable charts, analyzing distributions of variables, identifying correlations between features.
+ 4. Statistical Analysis & Hypothesis Testing: Applying statistical tests, evaluating the significane features related to heart disease
+ 5. Modeling: Training multiple machine learning models.
+ 6. Model evaluation: Evaluating models by using suitable metrics.
+ 7. Optimization: Tuning parameters, improving models performance.
+ 8. Prediction: Predicting the likelihood the heart disease, identifying important features contributing to predictions, and giving insights.
+ ## How to run
+ Clone all repository:
+ ```bash
+git clone https://github.com/mau09022004/Heart-Disease-Analysis-and-Prediction.git
+cd Heart-Disease-Analysis-and-Prediction
+```
+## Author
+* **Nguyễn Hà Anh**: [Anh Nguyen](https://github.com/ahnguyen24)
+* **Bùi Lê Khôi**: [1ekh01](https://github.com/1ekh01)
+* **Bùi Công Mậu**: [mau09022004](https://github.com/mau09022004)
+* **Thái Hữu Thọ**: [huuThoTT](https://github.com/huuThoTT)
