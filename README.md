@@ -54,4 +54,34 @@ Heart-Disease-Analysis-and-Prediction/
 ```
 
 ## Technologies Used
+### 🐍 Programming & Environment
+- Python
+- Jupyter Notebook / Google Colab
 
+### 📊 Data Processing & Analysis
+- pandas
+- numpy
+
+### 📈 Data Visualization
+- matplotlib
+- seaborn
+
+### 📐 Statistical Analysis
+- scipy
+- statsmodels
+
+### 🤖 Machine Learning
+- scikit-learn
+  - Classification: Logistic Regression, KNN, Decision Tree, Random Forest, SVM
+  - Clustering: K-Means
+  - Model Selection: GridSearchCV, RandomizedSearchCV, Cross-validation
+  - Feature Selection: RFE, RFECV
+  - Evaluation Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC
+
+### ⚖️ Imbalanced Data Handling
+- imbalanced-learn (SMOTE)
+
+### 🧪 Additional Tools
+- openpyxl (Excel handling)
+- tqdm (progress bar)
+- warnings (ignore runtime warnings)
