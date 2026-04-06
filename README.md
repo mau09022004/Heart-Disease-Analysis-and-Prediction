@@ -71,6 +71,16 @@ There are 8 steps:
  6. Model evaluation: Evaluating models by using suitable metrics.
  7. Optimization: Tuning parameters, improving models performance.
  8. Prediction: Predicting the likelihood the heart disease, identifying important features contributing to predictions, and giving insights.
+ ## Insights
+The analysis reveals several important insights into the factors associated with heart disease.
+
+Age is positively correlated with the likelihood of heart disease, indicating that older patients are at higher risk. Chest pain type (cp) emerges as one of the most influential features, particularly with asymptomatic cases showing a higher probability of heart disease. In contrast, maximum heart rate achieved (thalach) has a negative relationship with heart disease, suggesting that lower heart rate capacity may indicate higher risk.
+
+Statistical analysis further confirms that features such as chest pain type, exercise-induced angina (exang), and the number of major vessels (ca) have significant differences between patients with and without heart disease. However, some commonly assumed factors like cholesterol (chol) do not show strong significance when considered independently, highlighting the importance of multivariate analysis.
+
+From a modeling perspective, ensemble methods such as Random Forest outperform simpler models by capturing complex relationships between features, while Logistic Regression provides a strong and interpretable baseline. Feature scaling is essential for improving the performance of models like KNN and SVM, and hyperparameter tuning plays a key role in optimizing results.
+
+Overall, the findings suggest that a combination of clinical features is necessary for accurate prediction, and machine learning models can effectively support early detection and decision-making in healthcare.
  ## How to run
  Clone all repository:
  ```bash
